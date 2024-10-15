@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Responsive Registration Form | CodingLab </title>
+  <link rel="stylesheet" href="../Final Assignment/assets/CSS/style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Title section -->
+    <div class="title">Registration Form</div>
+    <div class="content">
+      <!-- Registration form -->
+      <form action="#">
+        <div class="user-details">
+          <!-- Input for Full Name -->
+          <div class="input-box">
+            <span class="details"> Name</span>
+            <img src="../Final Assignment/assets/SVG Images/fullname.svg" class="label_image_fullname" alt="">
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <!-- Input for Username -->
+          <div class="input-box">
+            <span class="details">Username</span>
+            <img src="../Final Assignment/assets/SVG Images/username.svg" class="label_image_username" alt="">
+            <input type="text" placeholder="Enter your username" required>
+          </div>
+          <!-- Input for Email -->
+          <div class="input-box">
+            <span class="details">Email</span>
+            <img src="../Final Assignment/assets/SVG Images/email_icon.svg" class="label_image_email" alt="">
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <!-- Input for Phone Number -->
+          <div class="input-box">
+            <span class="details">Number</span>
+            <img src="../Final Assignment/assets/SVG Images/phone_number.svg" class="label_image_number" alt="">
+            <input type="text" placeholder="Enter your number" required>
+          </div>
+          <!-- Input for Password -->
+          <div class="input-box">
+            <span class="details">Password</span>
+            <img src="../Final Assignment/assets/SVG Images/password.svg" class="label_image_password" alt="">
+            <input type="password" name="password" placeholder="Enter your password" required>
+          </div>
+          <!-- Input for Confirm Password -->
+          <div class="input-box">
+            <span class="details"> Password</span>
+            <img src="../Final Assignment/assets/SVG Images/password.svg" class="label_image_confirm_password" alt="">
+            <input type="password" name="confirm_password" placeholder="Confirm your password" required>
+          </div>
+          
+        </div>
+        <div class="gender-details">
+          <!-- Radio buttons for gender selection -->
+          <input type="radio" name="gender" id="gender-1">
+          <input type="radio" name="gender" id="gender-2">
+          <input type="radio" name="gender" id="gender-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <!-- Label for Male -->
+            <label for="gender-1">
+              <span class="dot one"></span>
+              <span class="gender">Male</span>
+            </label>
+            <!-- Label for Female -->
+            <label for="gender-2">
+              <span class="dot two"></span>
+              <span class="gender">Female</span>
+            </label>
+            <!-- Label for Prefer not to say -->
+            <label for="gender-3">
+              <span class="dot three"></span>
+              <span class="gender">Other</span>
+            </label>
+          </div>
+        </div>
+        <!-- Submit button -->
+        <div class="button">
+          <input type="submit" value="Cancel" class="cancel-btn">
+          <input type="submit" value="Submit">
+        </div>
+    
+      </form>
+    </div>
+  </div>
+</body>
+</html>
